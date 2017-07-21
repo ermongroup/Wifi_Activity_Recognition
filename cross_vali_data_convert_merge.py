@@ -98,8 +98,8 @@ if not os.path.exists("input_files/"):
         os.makedirs("input_files/")
 
 for i, label in enumerate (["bed", "fall", "pickup", "run", "sitdown", "standup", "walk"]):
-	filepath1 = "./170616_activity_data_merge_1kHz/input_*" + str(label) + "*.csv"
-	filepath2 = "./170616_activity_data_merge_1kHz/annotation_*" + str(label) + "*.csv"
+	filepath1 = "./Dataset/input_*" + str(label) + "*.csv"
+	filepath2 = "./Dataset/annotation_*" + str(label) + "*.csv"
 	outputfilename1 = "./input_files/xx_" + str(window_size) + "_" + str(threshold) + "_" + label + ".csv"
 	outputfilename2 = "./input_files/yy_" + str(window_size) + "_" + str(threshold) + "_" + label + ".csv"
 
