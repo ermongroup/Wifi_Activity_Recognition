@@ -19,7 +19,7 @@ scikit-learn
 
 ## How to run
 0. Download dataset from [here](https://stanford.box.com/s/se4s7y9l5cjym6foywi4l1b0n8qvfi00).  
- -> **Notice: Dataset size is ~17GB** Sorry, now under construction.
+ -> **Notice: Dataset size is ~17GB**
 
 1. "git clone" this repository.  
  
