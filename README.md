@@ -32,7 +32,9 @@ scikit-learn
 ## Dataset
 We collect dataset using [Linux 802.11n CSI Tool](https://dhalperi.github.io/linux-80211n-csitool/).  
 
-The files with "input_" suffix are WiFi Channel State Information data.  
- -> 1st column shows timestamp. 2nd - 91st column shows (30 subcarrier * 3 antenna) Amplitude. 92nd - 181st column shows (30 subcarrier * 3 antenna) Phase.
+The files with "input_" prefix are WiFi Channel State Information data.  
+ -> 1st column shows timestamp.  
+ -> 2nd - 91st column shows (30 subcarrier * 3 antenna) amplitude.  
+ -> 92nd - 181st column shows (30 subcarrier * 3 antenna) phase.
  
-The files with "annotation_" suffix are annotation data.
+The files with "annotation_" prefix are annotation data.
