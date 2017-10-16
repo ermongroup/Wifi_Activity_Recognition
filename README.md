@@ -1,7 +1,7 @@
 # Wifi_Activity_Recognition using LSTM
 
 Latest dataset & Tensorflow code for IEEE Communication Magazine.  
-Title: A Survey on Behaviour Recognition Using WiFi Channel State Information
+Title: [A Survey on Behaviour Recognition Using WiFi Channel State Information](http://ieeexplore.ieee.org/document/8067693/)
 
 Work by Siamak Yousefi, Hirokazu Narui, Sankalp Dayal, [Stefano Ermon](http://cs.stanford.edu/~ermon), Shahrokh Valaee
 
