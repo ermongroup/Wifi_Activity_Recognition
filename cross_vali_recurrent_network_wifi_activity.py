@@ -76,8 +76,10 @@ def RNN(x, weights, biases):
 pred = RNN(x, weights, biases)
 
 # Define loss and optimizer
-cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits = pred, labels = y))
-optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
+cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits = pred, labels = y)) #cost는 학습의 오차율을 나타내는 것으로 보이며, 오차율을 감소시키기 위해 optimizer의 tf.train,AdamOptimizer을 사용하는것으로 보임
+optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost) 
+#tf,train.AdamOptimizer(Learning late = 학습속도).minimize(cost = 로스율)    minimize의 첫 번째 인자는 loss이며 cost가 들어간다.
+#https://www.tensorflow.org/api_docs/python/tf/train/AdamOptimizer
 
 # Evaluate model
 correct_pred = tf.equal(tf.argmax(pred,1), tf.argmax(y,1))
