@@ -40,7 +40,7 @@ def dataimport(path1, path2):
 		tmp2 = np.array(ano_data)
 
 		#data import by slide window
-		y = np.zeros(((len(tmp2) + 1 - 2 * window_size)/slide_size+1,8))
+		y = np.zeros(((len(tmp2) + 1 - 2 * window_size)//slide_size+1,8))
 		k = 0
 		while k <= (len(tmp2) + 1 - 2 * window_size):
 			y_pre = np.stack(np.array(tmp2[k:k+window_size]))
