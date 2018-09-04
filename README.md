@@ -18,10 +18,8 @@ scikit-learn
 <br/>
 
 ## How to run
-0. Download dataset from [here](https://stanford.box.com/s/johz79hz7n2jue5biqlxja6vbq7xtk9l).  
- LATEST VERSION IS [here](https://stanford.box.com/s/bh82xb2nwcxj6sndc38aes8ijhocrkj1)  
- -> **Notice: Dataset size is ~17GB**  
- -> **You need to make new folder named "Dataset" and put every csv files into it.**
+0. Download dataset from [here](https://drive.google.com/open?id=1AvafhK9raj4CslHtGKGexHIOTJgXMCG9)  
+ -> **Notice: Dataset size is ~4GB**  
 
 1. "git clone" this repository.  
  
