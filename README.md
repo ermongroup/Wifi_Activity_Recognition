@@ -38,3 +38,6 @@ The files with "input_" prefix are WiFi Channel State Information data.
  -> 92nd - 181st column shows (30 subcarrier * 3 antenna) phase.
  
 The files with "annotation_" prefix are annotation data.
+
+## Jupyter notebook
+[PCA_STFT](https://github.com/ermongroup/Wifi_Activity_Recognition/blob/master/PCA_STFT_visualize.ipynb) file visualize the data from .csv file. This code refers to [CARM](https://www.cse.msu.edu/~alexliu/publications/WeiCARM/WeiCARM_MOBICOM15.pdf).
