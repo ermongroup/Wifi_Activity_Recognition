@@ -26,7 +26,7 @@ scikit-learn
 2. Run the cross_vali_data_convert_merge.py  
  -> This script makes csv files(input features & label) of each activity in "input_files" folder.　　
 
-3. Run the cross_vali_data_convert.py  
+3. Run the cross_vali_recurrent_network_wifi_activity.py 
  -> This script makes learning curve images & confusion matrix in a new folder.　　
 
 ## Dataset
