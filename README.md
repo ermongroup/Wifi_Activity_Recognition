@@ -18,9 +18,8 @@ scikit-learn
 <br/>
 
 ## How to run
-0. Download dataset from [here](https://drive.google.com/open?id=1AvafhK9raj4CslHtGKGexHIOTJgXMCG9)  
+0. Download dataset from [here](https://drive.google.com/file/d/19uH0_z1MBLtmMLh8L4BlNA0w-XAFKipM/view?usp=sharing)  
  -> **Notice: Dataset size is ~4GB**  
- -> **Please replace this file[annotation_sankalp_sitdown_6.csv](https://drive.google.com/open?id=1GSNrDy4zZz5jPRCGWTWYBMRe2n2OXQnd) instead of Dataset one.**
 
 1. "git clone" this repository.  
  
