@@ -9,17 +9,20 @@ Work by Siamak Yousefi, Hirokazu Narui, Sankalp Dayal, [Stefano Ermon](http://cs
 
 ## Prerequisite
 
-Tensorflow >= 1.0  
+Tensorflow-gpu = 1.15.0 (or 1.x)
 numpy  
 pandas  
 matplotlib  
 scikit-learn  
+### Kind reminder（友情提示）
+tensorflow consists of many library, so please make sure all the used library is under v1.15.0
 
+If you use anaconda, the default python version may be different from we need. So, create a new environment by "conda create -n myenv python=3.7 anaconda" .Then swich to new environment and install tensorflow by "conda install tensorflow==1.15.0"
 <br/>
 
 ## How to run
 0. Download dataset from [here](https://drive.google.com/file/d/19uH0_z1MBLtmMLh8L4BlNA0w-XAFKipM/view?usp=sharing)  
- -> **Notice: Dataset size is ~4GB**  
+ -> **Notice: Dataset size is 3.6GB**  
 
 1. "git clone" this repository.  
  
