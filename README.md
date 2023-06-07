@@ -9,15 +9,15 @@ Work by Siamak Yousefi, Hirokazu Narui, Sankalp Dayal, [Stefano Ermon](http://cs
 
 ## Prerequisite
 
-Tensorflow-gpu = 1.15.0 (or 1.x)
+Tensorflow-gpu = 1.14.0 (or 1.x)
 numpy  
 pandas  
 matplotlib  
 scikit-learn  
 ### Kind reminder（友情提示）
-tensorflow consists of many library, so please make sure all the used library is under v1.15.0
+tensorflow consists of many library, so please make sure all the used library is under v1.14.0
 
-If you use anaconda, the default python version may be different from we need. So, create a new environment by "conda create -n myenv python=3.7 anaconda" .Then swich to new environment and install tensorflow by "conda install tensorflow==1.15.0"
+If you use anaconda, the default python version may be different from we need. So, create a new environment by "conda create -n myenv python=3.7 anaconda" .Then swich to new environment and install tensorflow by "conda install tensorflow==1.14.0"
 <br/>
 
 ## How to run
