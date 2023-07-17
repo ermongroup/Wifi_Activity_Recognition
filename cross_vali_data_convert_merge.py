@@ -71,21 +71,21 @@ def dataimport(path1, path2):
 					noactivity += 1
 
 			if bed > window_size * threshold / 100:
-				y[k/slide_size,:] = np.array([0,1,0,0,0,0,0,0])
+				y[k//slide_size,:] = np.array([0,1,0,0,0,0,0,0])
 			elif fall > window_size * threshold / 100:
-				y[k/slide_size,:] = np.array([0,0,1,0,0,0,0,0])
+				y[k//slide_size,:] = np.array([0,0,1,0,0,0,0,0])
 			elif walk > window_size * threshold / 100:
-				y[k/slide_size,:] = np.array([0,0,0,1,0,0,0,0])
+				y[k//slide_size,:] = np.array([0,0,0,1,0,0,0,0])
 			elif pickup > window_size * threshold / 100:
-				y[k/slide_size,:] = np.array([0,0,0,0,1,0,0,0])
+				y[k//slide_size,:] = np.array([0,0,0,0,1,0,0,0])
 			elif run > window_size * threshold / 100:
-				y[k/slide_size,:] = np.array([0,0,0,0,0,1,0,0])
+				y[k//slide_size,:] = np.array([0,0,0,0,0,1,0,0])
 			elif sitdown > window_size * threshold / 100:
-				y[k/slide_size,:] = np.array([0,0,0,0,0,0,1,0])
+				y[k//slide_size,:] = np.array([0,0,0,0,0,0,1,0])
 			elif standup > window_size * threshold / 100:
-				y[k/slide_size,:] = np.array([0,0,0,0,0,0,0,1])
+				y[k//slide_size,:] = np.array([0,0,0,0,0,0,0,1])
 			else:
-				y[k/slide_size,:] = np.array([2,0,0,0,0,0,0,0])
+				y[k//slide_size,:] = np.array([2,0,0,0,0,0,0,0])
 			k += slide_size
 
 		yy = np.concatenate((yy, y),axis=0)
