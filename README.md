@@ -18,15 +18,15 @@ scikit-learn
 <br/>
 
 ## How to run
-0. Download dataset from [here](https://drive.google.com/file/d/19uH0_z1MBLtmMLh8L4BlNA0w-XAFKipM/view?usp=sharing)  
+0. Download dataset from [here] https://ieee-dataport.org/documents/wifi-csi-activity-recognition-dataset
  -> **Notice: Dataset size is ~4GB**  
 
-1. "git clone" this repository.  
+2. "git clone" this repository.  
  
-2. Run the cross_vali_data_convert_merge.py  
+3. Run the cross_vali_data_convert_merge.py  
  -> This script makes csv files(input features & label) of each activity in "input_files" folder.　　
 
-3. Run the cross_vali_recurrent_network_wifi_activity.py 
+4. Run the cross_vali_recurrent_network_wifi_activity.py 
  -> This script makes learning curve images & confusion matrix in a new folder.　　
 
 ## Dataset
